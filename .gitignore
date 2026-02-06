@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Database (auto-created on first run)
+smint.db
+
+# User-generated transaction history files
+*_transaction_history.csv
+
+# Firebase credentials (sensitive)
+smint-b7ed5-13c77fa56d0d.json
+
+# Old JSON user storage (replaced by SQLite)
+users.json
+
+# Unused data files
+tesla_stock.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
