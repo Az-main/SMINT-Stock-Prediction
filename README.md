@@ -2,6 +2,10 @@
 
 A Streamlit-based web application for stock price prediction using Machine Learning, with interactive data visualization and a portfolio trading simulator.
 
+> **Project context:** I built SMINT during my **2nd trimester of my BSc in Data Science** as part of my **Object-Oriented Programming (OOP)** course.  
+> This was one of my **first complete end-to-end projects**, focused on practicing clean structure, core OOP concepts, and building a working ML-powered app.  
+> I’m continuously improving and learning — future versions will include stronger modeling, validation, and more advanced features.
+
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.50-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -43,63 +47,3 @@ A Streamlit-based web application for stock price prediction using Machine Learn
    ```bash
    git clone https://github.com/Az-main/SMINT-Stock-Prediction.git
    cd SMINT-Stock-Prediction
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the application**
-   ```bash
-   streamlit run main.py
-   ```
-
-4. **Open in browser**
-   - The app will open at `http://localhost:8501`
-
-## 🔑 Default Login
-- **Username:** `admin`
-- **Password:** `password123`
-
-Or create a new account from the sidebar.
-
-## 📁 Project Structure
-```
-SMINT-Stock-Prediction/
-├── main.py               # Main application
-├── database.py           # SQLite database operations
-├── samsung_model.pkl     # Trained ML model
-├── Samsung_stock.csv     # Stock data
-├── requirements.txt      # Python dependencies
-├── .gitignore            # Git ignore rules
-└── README.md             # This file
-```
-
-## 🛠️ Tech Stack
-- **Frontend:** Streamlit
-- **Visualization:** Plotly, Plotly Graph Objects
-- **ML Model:** Scikit-learn (trained model)
-- **Database:** SQLite3
-- **Security:** SHA-256 Password Hashing
-- **Data Processing:** Pandas, NumPy
-
-## 📸 Screenshots
-
-### Login Page
-Login or create a new account from the sidebar.
-
-### Data Visualization
-Upload stock data and visualize with multiple chart types including candlestick charts.
-
-### Price Prediction
-Predict future stock prices and compare with actual values.
-
-## 🤝 Contributing
-Feel free to fork this repository and submit pull requests.
-
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👤 Author
-- **Azmain** - [GitHub](https://github.com/Az-main)
