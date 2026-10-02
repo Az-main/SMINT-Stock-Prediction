@@ -19,6 +19,11 @@ smint.db
 
 # Firebase credentials (sensitive)
 smint-b7ed5-13c77fa56d0d.json
+# Environment and Streamlit secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
 
 # Old JSON user storage (replaced by SQLite)
 users.json
