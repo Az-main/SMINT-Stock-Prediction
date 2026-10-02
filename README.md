@@ -1,5 +1,12 @@
 # 📈 SMINT - Stock Price Prediction & Portfolio Management
 
+## 🌐 Live Demo
+
+Try the application here: **[Launch SMINT](https://smint-stock-prediction-ng4ud2x8vpaevm8pdkujsh.streamlit.app/)**
+
+> SMINT is an educational project originally built during my second trimester.  
+> The hosted version is intended as a small demonstration, and stored accounts or transaction data may reset when the application restarts.
+
 A Streamlit-based web application for stock price prediction using Machine Learning, with interactive data visualization and a portfolio trading simulator.
 
 > **Project context:** I built SMINT during my **2nd trimester of my BSc in Data Science** as part of my **Object-Oriented Programming (OOP)** course.  
