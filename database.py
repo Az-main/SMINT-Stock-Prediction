@@ -37,9 +37,8 @@ def init_database():
     conn.commit()
     conn.close()
     
-    # Create default admin user if not exists
-    if not user_exists("admin"):
-        create_user("admin", "admin@smint.com", "password123")
+
+    
 
 
 def hash_password(password):
